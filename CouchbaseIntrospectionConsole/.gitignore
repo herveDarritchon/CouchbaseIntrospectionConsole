@@ -11,7 +11,8 @@
 *.class
 *.jar
 *.war
-.metadata*
+
+.metadata/
 
 Servers/
 
