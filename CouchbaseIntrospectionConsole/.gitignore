@@ -4,6 +4,7 @@
 # except for .gitignore
 !.gitignore
 
+.DS_Store*
 .settings*
 .classpath*
 .project*

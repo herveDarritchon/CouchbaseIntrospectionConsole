@@ -15,10 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author ahdi7503
  * 
  */
-@WebServlet(displayName = "Couchbase Introspection Console JEE 7", 
-	name = "documentservlet", 
-	urlPatterns = "/document/*", 
-	initParams = { @WebInitParam(name = "item", value = "Document") })
+@WebServlet(displayName = "Couchbase Introspection Console JEE 7", name = "documentservlet", urlPatterns = "/document/*", initParams = { @WebInitParam(name = "item", value = "Document") })
 public class Jee7Servlet extends HttpServlet {
 
 	/**
@@ -30,7 +27,7 @@ public class Jee7Servlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse res) {
 		String itemType = getServletConfig().getInitParameter("item");
-		LOGGER.info("Appel de la Servlet JeeServlet avec le paramètre item :"
+		LOGGER.info("Appel de la Servlet JeeServlet avec le paramï¿½tre item :"
 				+ itemType);
 	}
 
